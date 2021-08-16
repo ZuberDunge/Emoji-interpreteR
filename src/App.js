@@ -14,7 +14,7 @@ var emojiList = {
   "🌽": "Corn"
 };
 
-var emojiWeKnow = Object.keys(emojiList);
+var emojiWeHave = Object.keys(emojiList);
 
 export default function App() {
   const [meaning, setMeaning] = useState("");
@@ -43,9 +43,9 @@ export default function App() {
 
       <h2>{meaning}</h2>
 
-      <h3 className="heading">Emoji we know</h3>
+      <h3 className="heading2 space">Emojis We Have</h3>
 
-      {emojiWeKnow.map(function (emoji) {
+      {emojiWeHave.map(function (emoji) {
         return (
           <span
             onClick={function () {

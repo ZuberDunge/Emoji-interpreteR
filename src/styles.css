@@ -8,27 +8,48 @@ body {
 }
 
 .heading {
-  margin-top: 0;
-  padding: 5px;
+  margin-top: 20px;
+  padding: 10px;
   background-color: #4338ca;
   color: white;
 }
 
+.heading2 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color: #4338ca;
+  color: white;
+  width: 10rem;
+  text-align: center;
+  margin: auto;
+  border-radius: 5px;
+}
+
 .input {
-  width: 60%;
+  width: 50%;
   height: 2rem;
   padding: 1rem;
   border-radius: 1rem;
 }
 footer {
-  margin-top: 20rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 .social {
   padding: 2px;
+  font-weight: bolder;
   background-color: #4338ca;
   color: white;
 }
 .social:hover {
-  color: #191f42;
+  color: black;
+}
+
+.space {
+  margin-bottom: 25px;
 }
