@@ -13,7 +13,10 @@ body {
   background-color: #4338ca;
   color: white;
 }
-
+span {
+  display: inline-block;
+  margin: 0.5rem;
+}
 .heading2 {
   margin-top: 20px;
   margin-bottom: 30px;
