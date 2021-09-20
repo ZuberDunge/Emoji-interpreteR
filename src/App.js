@@ -11,7 +11,18 @@ var emojiList = {
   "🥥": "Coconut",
   "🍐": "Pear",
   "🥕": "Carrot",
-  "🌽": "Corn"
+  "🌽": "Corn",
+
+  "🍊": "Tangerine",
+  "🍋": "Lemon",
+  "🫐": "Blueberries",
+  "🍈": "Melon",
+  "🍒": "Cherries",
+
+  "🍑": "Peach",
+  "🥭": "Mango",
+  "🥝": "Kiwi",
+  "🍆": "Eggplant"
 };
 
 var emojiWeHave = Object.keys(emojiList);

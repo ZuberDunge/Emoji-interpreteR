@@ -15,7 +15,7 @@ body {
 }
 span {
   display: inline-block;
-  margin: 0.5rem;
+  margin: 0.25rem;
 }
 .heading2 {
   margin-top: 20px;
@@ -29,7 +29,12 @@ span {
   border-radius: 5px;
 }
 
+.input:focus {
+  outline: none;
+}
+
 .input {
+  border: none;
   width: 50%;
   height: 2rem;
   padding: 1rem;
